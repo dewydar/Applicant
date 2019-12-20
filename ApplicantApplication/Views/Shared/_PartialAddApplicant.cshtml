@@ -1,0 +1,19 @@
+﻿@model ApplicantApplication.Models.ViewModels.ApplicantVM
+<tr id="@Model.NewApplicant.ID">
+    <td>
+        @Html.DisplayFor(modelItem => Model.NewApplicant.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.NewApplicant.BirthDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.NewApplicant.MobileNo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.NewApplicant.EMail)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.NewApplicant.Gender.Name)
+    </td>
+</tr>
+
